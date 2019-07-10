@@ -20,11 +20,11 @@ class App extends Component {
                      <PostList />
                   </div>
                </div>
-               <div className="row" style={stylesApp}>
+               {/* <div className="row" style={stylesApp}>
                   <div>
                      <Counter />
                   </div>
-               </div>
+               </div> */}
             </div>
         </Fragment>
       );

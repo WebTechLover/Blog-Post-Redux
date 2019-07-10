@@ -31,6 +31,7 @@ class NewPost extends Component {
 	render() {
 		return(
 			<Fragment>
+				<h1 className="mb-5">My Blog In React</h1>
 				<form onSubmit={ this.handleSubmit }>
 					<div className="form-group">
 						<input
@@ -55,7 +56,7 @@ class NewPost extends Component {
 					</div>
 					<div className="form-group">
 						<button type="submit" className="btn btn-primary">Add Post</button>
-						<button type="button" className="btn btn-warning" onClick={ this.handleReset }>
+						<button type="button" className="btn btn-warning ml-3" onClick={ this.handleReset }>
 						Reset
 						</button>
 					</div>
